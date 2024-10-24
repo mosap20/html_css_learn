@@ -1,0 +1,130 @@
+.navbar {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    width: 100%;
+    display: block;
+    padding: 105px;
+    background-color: #666;
+  }
+  
+  li a {
+    width: 100%;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .container1 {
+    margin: 1px;
+    padding: 1px;
+    display: block;
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .container1 .makima {
+    width: 400px;
+    padding: 15px;
+    margin: 50px;
+    float: left;
+  }
+  
+  .container1 .loremMakima {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 60%;
+    margin-left: 20px; /* Adjust spacing */
+    position: relative;
+    top: 100px;
+  }
+  
+  .container2 {
+    display: flex; 
+    justify-content: center; /* Align images horizontally in center */
+    padding: 1px;
+    margin: 1px auto; /* Center the container */
+    clear: both; /* Ensure it goes below the previous content */
+  }
+  
+  .container2 .gun {
+    width: 350px;
+    margin: 60px;
+    padding: 1px;
+    border: 1px solid #ddd; 
+    justify-content: center;
+  }
+  .container2 .solo {
+    width: 350px;
+    margin: 60px;
+    padding: 1px;
+    border: 1px solid #ddd; 
+    justify-content: center;
+  }
+  .container2 .makimaIsHere {
+    width: 350px;
+    margin: 60px;
+    padding: 1px;
+    border: 1px solid #ddd; 
+    justify-content: center;
+  }
+  .container1 .paragraphe1{
+    display: flex;
+    display:block;
+    margin-top:100px ;
+  }
+  .container1 .paragraphe2{
+    display: flex;
+    display:block;
+  }
+  .container1 .paragraphe3{
+    display: flex;
+    display:block;
+  }
+  .captionContainer{
+    display: flex; 
+    justify-content: center; /* Align images horizontally in center */
+    padding: 1px;
+    margin: 1px auto; /* Center the container */
+    clear: both; /* Ensure it goes below the previous content */
+  }
+  .captionContainer .caption1{
+    width: 350px;
+    margin: 60px;
+    padding: 1px;
+    border: 3px solid ; 
+    justify-content: center;
+  }
+  .captionContainer .caption2{
+    width: 350px;
+    margin: 60px;
+    padding: 1px;
+    border: 3px solid ; 
+    justify-content: center;
+  }
+  .captionContainer .caption3{
+    width: 350px;
+    margin: 60px;
+    padding: 1px;
+    border: 3px solid ; 
+    justify-content: center;
+  }
